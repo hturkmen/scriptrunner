@@ -1,0 +1,16 @@
+Comment cmt = getLastComment("DEMO-1");
+event.issue.description =cmt["text"];
+
+
+
+/*
+import com.atlassian.jira.ComponentManager
+import com.atlassian.jira.issue.Issue
+import com.atlassian.jira.issue.comments.Comment
+import com.atlassian.jira.issue.comments.CommentManager
+import com.atlassian.jira.component.ComponentAccessor
+
+def commentManager = ComponentAccessor.getCommentManager()
+def comment = commentManager.getLastComment (issue)
+event.issue.description = comment.body 
+*/
