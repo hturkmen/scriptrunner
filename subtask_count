@@ -7,6 +7,6 @@ int count = 0;
 //for (i in issue.getSubTaskObjects()){
 for(Issue is : subTasks){
   count++;
-}
+} 
  return count;
   
